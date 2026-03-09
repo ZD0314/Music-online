@@ -1,0 +1,90 @@
+/* 全局样式 */
+
+/* 强制修复 Element Plus 对话框内下拉框问题 */
+.el-dialog {
+  overflow: visible !important;
+}
+
+.el-dialog__wrapper {
+  overflow: visible !important;
+}
+
+.el-dialog__header {
+  overflow: visible !important;
+}
+
+.el-dialog__body {
+  overflow: visible !important;
+  max-height: none !important;
+  padding: 20px !important;
+}
+
+.el-dialog__footer {
+  overflow: visible !important;
+}
+
+.el-form {
+  overflow: visible !important;
+}
+
+.el-form-item {
+  overflow: visible !important;
+  margin-bottom: 22px !important;
+}
+
+.el-form-item__content {
+  overflow: visible !important;
+}
+
+/* 下拉框样式 */
+.el-select {
+  width: 100%;
+}
+
+.el-select-dropdown {
+  z-index: 9999 !important;
+}
+
+.el-popper {
+  z-index: 9999 !important;
+}
+
+.custom-select-dropdown {
+  z-index: 9999 !important;
+}
+
+/* 确保下拉框内容完整显示 */
+.el-select-dropdown__wrap {
+  max-height: 274px !important;
+}
+
+.el-select-dropdown__list {
+  padding: 6px 0 !important;
+}
+
+.el-select-dropdown__item {
+  height: 34px !important;
+  line-height: 34px !important;
+  padding: 0 20px !important;
+  font-size: 14px !important;
+}
+
+/* 优化滚动条样式 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
